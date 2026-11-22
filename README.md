@@ -55,3 +55,4 @@ Desktop app using two SDRs (one transmits, one captures I/Q) to measure **path l
 
 ## 📫 Let's talk
 Open to internships and collaborations in **software engineering (CRM/ERP, full-stack)** and **telecom / RF / IoT**.
+fcahua@unsa.edu.pe

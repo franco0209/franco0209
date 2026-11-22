@@ -1,4 +1,4 @@
-# Hi, I'm Franco 👋
+# Hi, I'm Franco 
 
 **Telecommunications Engineering & Software Engineering student.** I work across both worlds: I build **business software (CRM / ERP / back-office systems)** that real companies use, and I design, measure and prototype **wireless systems (SDR, private cellular networks, antennas, GNSS)**.
 

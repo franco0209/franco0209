@@ -25,6 +25,10 @@ Full-stack operations platform I built for a real technical-services company. Th
 End-to-end private network: **ESP32 + NB-IoT module → USRP eNB (OpenAirInterface) → Open5GS 4G core → MQTT → web control panel**, all in Docker Compose. Includes a validated RF plan with transmission safety rules, a virtual radio (srsRAN/ZMQ) to test without hardware, and PSM/eDRX power measurements.
 `Open5GS` `OpenAirInterface` `srsRAN` `USRP` `Docker` `FastAPI` `MQTT` `ESP32`
 
+### [Radio Link Planner](https://github.com/franco0209/radio-link-planner) — Point-to-point radio link feasibility in the browser
+Drop two sites on a map and get a plain-language verdict: **real terrain profile (Copernicus 90 m DEM), earth curvature, Fresnel zone, link budget and yearly availability**. If the link is blocked it computes how much taller the masts must be, or **proposes up to two repeater sites** and verifies each hop on the terrain. Everything runs client-side, the scenario lives in the URL, and the UI is in English, Spanish and Portuguese.
+📡 **[Live demo](https://franco0209.github.io/radio-link-planner/)**
+`TypeScript` `Leaflet` `Propagation modelling` `Vigants-Barnett` `GitHub Pages`
 ### [Wireless Channel Characterizer — USRP N210](https://github.com/franco0209/CaracterizadorDeCanal_USRPN210)
 Desktop app using two SDRs (one transmits, one captures I/Q) to measure **path loss (log-distance), LOS/NLOS obstruction effects, small-scale fading and multipath**. Includes a simulated channel so it runs without hardware.
 `Python` `UHD` `SDR` `NumPy`
